@@ -1,0 +1,31 @@
+name: wish_tabi_bass
+description: ويش تبي بس - تطبيق توصيل شامل
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  supabase_flutter: ^2.5.0
+  intl: ^0.19.0
+  image_picker: ^1.1.0
+  flutter_rating_bar: ^4.0.1
+  fl_chart: ^0.68.0
+  path_provider: ^2.1.0
+  url_launcher: ^6.2.0
+  share_plus: ^8.0.0
+  cupertino_icons: ^1.0.6
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^4.0.0
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/images/
+
